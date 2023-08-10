@@ -27,3 +27,6 @@ class Migration(migrations.Migration):
             field=models.IntegerField(validators=[django.core.validators.MinValueValidator(1), django.core.validators.MaxValueValidator(5)]),
         ),
     ]
+
+
+
